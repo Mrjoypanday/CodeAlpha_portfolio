@@ -5,6 +5,7 @@ import { Cursor, Typewriter } from "react-simple-typewriter";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  window.addEventListener('contextmenu',(e)=> e.preventDefault())
   return (
     <>
       <header>
